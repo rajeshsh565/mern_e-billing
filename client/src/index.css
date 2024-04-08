@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d3cece;
+  font-family: "Vollkorn", serif;
+  font-style: italic;
+}
+
+@media screen and (max-width: 992px) {
+  .profile {
+    margin-top: -7.5rem;
+    padding-top: 7.5rem;
+  }
+}
