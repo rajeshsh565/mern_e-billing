@@ -38,8 +38,8 @@ const LandingPage = () => {
           </p>
           <Link
             to="/login"
-            className="btn btn-secondary btn-outline-dark fs-5"
-            style={{ minWidth: "10rem" }}
+            className="btn btn-secondary btn-outline-dark fw-bolder fs-3"
+            style={{ minWidth: "10rem",boxShadow: "4px 4px 4px 4px rgba(0,0,0, 0.4)" }}
           >
             Login
           </Link>
