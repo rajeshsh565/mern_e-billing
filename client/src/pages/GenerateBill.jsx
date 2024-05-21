@@ -33,6 +33,10 @@ const GenerateBill = () => {
         const userRes = await customFetch.post("/user/get-user", {
           userId: data?.meter[0]?.ownerId,
         });
+        if(data.meter.length<1){
+          alert("no meters found!");
+          navigate("/dashboard/home");
+        }
         setMeters(data?.meter);
         setUser(userRes?.data?.user);
       } catch (error) {

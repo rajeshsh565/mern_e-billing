@@ -57,7 +57,7 @@ const MeterApprove = () => {
 
   return (
     <div className="container">
-      <div className="row border border-black" style={{ minHeight: "88.5vh" }}>
+      <div className="row" style={{ minHeight: "88.5vh" }}>
         <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center">
           <h2>Choose Pending Meter for Approval or Rejection:-</h2>
           <Form className="my-3 text-center" method="post">
